@@ -1,11 +1,13 @@
 #! usr/bin/python
-import win32com.client as win32
-
-excel = win32.gencache.EnsureDispatch('Excel.Application')
+import win32com.client
 
 
-def test_win32_read():
-    wb = excel.Workbooks.Open('D:\\study\\python-study\\test.xlsx')
+def test():
+    if 1 != 1:
+        print('aaa')
+    else:
+        print('bbb')
 
 
-wb = excel.Workbooks.Add()
+if __name__ == '__main__':
+    test()
