@@ -1,13 +1,7 @@
 #! usr/bin/python
-import win32com.client
-
 
 def test():
-    if 1 != 1:
-        print('aaa')
-    else:
-        print('bbb')
-
+    print(sum(range(1, 101)))
 
 if __name__ == '__main__':
     test()
