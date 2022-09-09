@@ -3,11 +3,9 @@
 a = 100
 
 def test():
-    global a
-    print(sum(range(1, 101)))
-    print(a)
-    a = 101
-    print(a + 1)
+   b = 2
+   for b in range(3,10,2):
+    print(b)
 
 if __name__ == '__main__':
     test()
