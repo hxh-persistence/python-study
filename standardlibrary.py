@@ -15,7 +15,10 @@ def ostest():
     print(a)
 def retest():
     print("test")
+def mathtest():
+    print(math.log(4))
 
 if __name__ == "__main__":
     # ostest()
-    retest()
+    # retest()
+    mathtest()
