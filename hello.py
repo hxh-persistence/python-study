@@ -9,6 +9,8 @@ def test():
 
 def sayhello():
     print('hello')
+    for i in range(0, 19):
+        print(i)
 
 if __name__ == '__main__':
     test()
